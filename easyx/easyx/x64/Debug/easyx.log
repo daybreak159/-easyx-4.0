@@ -1,0 +1,24 @@
+﻿  FileName.cpp
+E:\Windows Kits\10\Include\10.0.22621.0\ucrt\tchar.h(887,1): warning C4005: “_stprintf”: 宏重定义
+E:\easyx\easyx\FileName.cpp(1,1): message : 参见“_stprintf”的前一个定义
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\type_traits(1762,67): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(55,14): message : 查看对正在编译的函数 模板 实例化“int std::invoke<int(__cdecl *)(int,int),double,int>(_Callable &&,_Ty1 &&,int &&) noexcept(false)”的引用
+          with
+          [
+              _Callable=int (__cdecl *)(int,int),
+              _Ty1=double
+          ]
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(62,17): message : 查看对正在编译的函数 模板 实例化“unsigned int std::thread::_Invoke<_Tuple,0,1,2>(void *) noexcept”的引用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(71,40): message : 查看对正在编译的函数 模板 实例化“unsigned int (__cdecl *std::thread::_Get_invoke<_Tuple,0,1,2>(std::integer_sequence<size_t,0,1,2>) noexcept)(void *)”的引用
+D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\thread(88,9): message : 查看对正在编译的函数 模板 实例化“void std::thread::_Start<int(__cdecl &)(int,int),_Ty,int>(_Fn,_Ty &&,int &&)”的引用
+          with
+          [
+              _Ty=double,
+              _Fn=int (__cdecl &)(int,int)
+          ]
+E:\easyx\easyx\FileName.cpp(401,16): message : 查看对正在编译的函数 模板 实例化“std::thread::thread<int(__cdecl &)(int,int),double,int,0>(_Fn,double &&,int &&)”的引用
+          with
+          [
+              _Fn=int (__cdecl &)(int,int)
+          ]
+  easyx.vcxproj -> E:\easyx\x64\Debug\easyx.exe
